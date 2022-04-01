@@ -1,0 +1,6 @@
+threading
+ccxt
+pandas
+time
+pandas_ta
+logging
