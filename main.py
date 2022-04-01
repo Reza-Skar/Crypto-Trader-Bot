@@ -25,13 +25,7 @@ try:
 except:
     os.system("pip install pandas_ta")
 # # # # # # # # # # # # # # # # # # # #
-try:
-    import logging
-except:
-    os.system("pip install logging")
-# # # # # # # # # # # # # # # # # # # #
 from datetime import datetime
-logging.basicConfig(filename='log.txt', filemode='a', format='%(asctime)s : %(message)s', datefmt='%H:%M:%S')
 # exchange = ccxt.coinex({
 # "apiKey": "xxxx",
 # "secret": "xxxx",
@@ -140,7 +134,6 @@ def main():
                     if ( MA100 < MA20 ):
                         print (f'Long signal for {symbol} on {current_price} at {current_time}')
                         # playsound.playsound('1.wav')
-                        logging.warning(f'Long signal for {symbol} on {current_price} at {current_time}')
                         # exchange.create_market_buy_order(symbol, amount)
                         bought = 1
                         price_aval = current_price
@@ -148,7 +141,6 @@ def main():
                     if not ( MA100 < MA20 ):
                         print (f'Close Long position signal for {symbol} on {current_price} at {current_time}')
                         # playsound.playsound('1.wav')
-                        logging.warning(f'Close Long position signal for {symbol} on {current_price} at {current_time}')
                         bought = 0
                         price_dovom = current_price
                         tafazole_aval_va_dovom = price_dovom-price_aval
@@ -158,7 +150,6 @@ def main():
                     if ( MA100 > MA20 ):
                         print (f'Short signal for {symbol} on {current_price} at {current_time}')
                         # playsound.playsound('1.wav')
-                        logging.warning(f'Short signal for {symbol} on {current_price} at {current_time}')
                         Short = 1
                         price_sevom = current_price
                         # exchange.create_market_sell_order(symbol, amount)
@@ -166,7 +157,6 @@ def main():
                     if not ( MA100 > MA20 ):
                         print (f'Close Short position signal for {symbol} on {current_price} at {current_time}')
                         # playsound.playsound('1.wav')
-                        logging.warning(f'Close Short position signal for {symbol} on {current_price} at {current_time}')
                         Short = 0
                         price_chaharom = current_price
                         tafazole_Chaharom_va_sevome = price_chaharom-price_sevom
