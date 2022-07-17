@@ -1,4 +1,0 @@
-ccxt
-pandas
-pandas_ta
-datetime
