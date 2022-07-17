@@ -7,5 +7,6 @@
 
 [<img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/Button.png" width="300"/>](https://chromedriver.chromium.org/downloads)
 ّ
+
 پس از دانلود وب درایور آنرا کنار کد اصلی قرار دهید.
 
