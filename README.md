@@ -15,6 +15,8 @@
 
 مسئولیت استفاده از ربات مربوط به خود کاربر بوده و ما مسئولیتی در قبال سود و زیان فرد نداریم.
 
+عکس مربوط به لاین 190 کد :
+
 <img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/1.png"/>
 
 # Contact-Us
