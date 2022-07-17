@@ -143,11 +143,11 @@ time.sleep(1)
 
 user = driver.find_element(By.NAME,"username")
 
-user.send_keys("rezaskar")
+user.send_keys("xxxxx")
 
 pas = driver.find_element(By.NAME,"password")
 
-pas.send_keys("ReZa1234")
+pas.send_keys("xxxxx")
 
 pas.send_keys(Keys.ENTER)
 
