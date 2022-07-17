@@ -5,4 +5,4 @@
 
 برای اجرای ربات باید در کنار ربات وب درایور کروم باشه که شما میتوانید با استفاده از لینک زیر با توجه به نسخه مرورگرتان وب درایورتون رو دانلود کنید توجه داشته باشید که باید فیلترشکنتان روشن باشد.
 
-[![](https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/Button.png)](https://chromedriver.chromium.org/downloads)
+[<img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/Button.png" width="25"/>](https://chromedriver.chromium.org/downloads)
