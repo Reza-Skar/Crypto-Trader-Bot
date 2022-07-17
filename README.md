@@ -15,7 +15,7 @@
 
 مسئولیت استفاده از ربات مربوط به خود کاربر بوده و ما مسئولیتی در قبال سود و زیان فرد نداریم.
 
-[<img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/1.png" width="300"/>]
+<img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/1.png"/>
 
 # Contact-Us
 برای ارتباط با بنده میتوانید از راه های ارتباطی زیر استفاده کنید :
