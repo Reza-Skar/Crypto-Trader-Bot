@@ -19,6 +19,7 @@
 
 <img src="https://github.com/Reza-Skar/Crypto-Trader-Bot/raw/main/images/1.png"/>
 
+شما باید خط 146 و 150 رو ادیت کنید و یوزرنیم و پسورد تریدینگ ویو خودتون رو بنویسید
 # Contact-Us
 برای ارتباط با بنده میتوانید از راه های ارتباطی زیر استفاده کنید :
 
