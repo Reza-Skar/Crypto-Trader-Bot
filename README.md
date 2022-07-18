@@ -34,14 +34,7 @@ E-Mail : rsababkar@gmail.com
 تلگرام سریع تر پاسخ میدم.
 
 
-
-
-<details> 
-  <summary>Special Thanks To :</summary>
-   🟡Amir Motahari🔴Jadi Mirmirani🔵S!R X🟢TEC1SC0 
-</details>
-
-
+# Special Thanks To :
 <details> 
   <summary>Amir Motahari :</summary>
    YouTube : Amir Motahari
