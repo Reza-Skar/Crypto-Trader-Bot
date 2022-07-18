@@ -185,7 +185,7 @@ system("cls")
 
 try:
 
-    image = Image.open('/images/1.png')
+    image = Image.open('images/1.png')
 
     image.show()
     
