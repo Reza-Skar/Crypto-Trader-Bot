@@ -33,6 +33,13 @@ E-Mail : rsababkar@gmail.com
 
 تلگرام سریع تر پاسخ میدم.
 
-و در آخر جا داره تشکر فراوانی از آقای Amir Motahari کنم که خیلی ویدیو هاشون مفید بود. 
 
 
+
+<details> 
+  <summary>Special Thanks To :</summary>
+   ➡️Amir Motahari , YouTube : Amir Motahari
+   ➡️Jadi Mirmirani , YouTube : Jadi Mirmirani
+   ➡️S!R X , Telegram : @General_Alpha
+   ➡️TEC1SC0 , Discord : @T E C 1 S C 0#4508
+</details>
