@@ -51,5 +51,10 @@ E-Mail : rsababkar@gmail.com
   <summary>TEC1SC0 :</summary>
    Discord : @T E C 1 S C 0#4508
 </details>
+<details> 
+  <summary>Tess :</summary>
+   Discord : @Tess#5806
+</details>
+
 
 
