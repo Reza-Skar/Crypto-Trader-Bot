@@ -183,13 +183,21 @@ except:
 
 system("cls")
 
-image = Image.open('1.png')
+try:
 
-image.show()
+    image = Image.open('1.png')
+
+    image.show()
+    
+except Exception as e:
+    
+    print(e)
 
 print("Agar Safheye TradingView Shoma Manande Akse Namayan Shode Ast Inja Yeki Az Klid Ha Ra Feshar Dahid")
 
 system("pause")
+
+system("cls")
 
 def get_data():
 
