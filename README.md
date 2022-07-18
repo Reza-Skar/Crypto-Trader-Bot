@@ -60,4 +60,13 @@ E-Mail : rsababkar@gmail.com
 </details>
 
 
+# Support-Us
+آدرس های ولت جهت حمایت شما ( هیچ انتظاری از هیچ کس و هیچ اجباری برای هیچ کسی نداریم و اگر دوست داشتید  و هر چقدر دوست داشتید واریز کنید و حتما تو تلگرام بهم خبر بدید تا من بدونم چه کسی واریز کرده )
 
+USDT BEP20 : 0x0D9d976FB92C0045FA2f242Ab43e8842D8f117d8
+
+USDT ERC20 : 0x0D9d976FB92C0045FA2f242Ab43e8842D8f117d8
+
+USDT TRC20 : TKmT6nmCtEkGkgsjmXskTJtAdhDNpLkLHK
+
+USDT SPL : 4pBH2WYwBtjyCbVyUge3ZzYWfne61cRb4ddYnENUiYLC
