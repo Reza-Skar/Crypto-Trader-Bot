@@ -38,8 +38,23 @@ E-Mail : rsababkar@gmail.com
 
 <details> 
   <summary>Special Thanks To :</summary>
-   ➡️Amir Motahari , YouTube : Amir Motahari
-   ➡️Jadi Mirmirani , YouTube : Jadi Mirmirani
-   ➡️S!R X , Telegram : @General_Alpha
-   ➡️TEC1SC0 , Discord : @T E C 1 S C 0#4508
+   🟡Amir Motahari🔴Jadi Mirmirani🔵S!R X🟢TEC1SC0 
 </details>
+<details> 
+  <summary>Amir Motahari :</summary>
+   YouTube : Amir Motahari
+</details>
+<details> 
+  <summary>Jadi Mirmirani :</summary>
+   YouTube : Jadi Mirmirani
+</details>
+<details> 
+  <summary>S!R X :</summary>
+   Telegram : @General_Alpha
+</details>
+<details> 
+  <summary>TEC1SC0 :</summary>
+   Discord : @T E C 1 S C 0#4508
+</details>
+
+
