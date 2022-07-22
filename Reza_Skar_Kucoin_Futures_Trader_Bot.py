@@ -117,10 +117,6 @@ exchange = ccxt.kucoinfutures({
     "enableRateLimit": True,
 })
 
-params = ({
-    "leverage": levrage,
-})
-
 options = webdriver.ChromeOptions() 
 
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -229,7 +225,7 @@ def main():
 
                 try:
                     
-                    order_id = exchange.create_market_buy_order(symbol, size, params)    
+                    order_id = exchange.create_market_buy_order(symbol, size, {"leverage": levrage})    
 
                     buy = 1
 
@@ -243,7 +239,7 @@ def main():
                     
                     print(Fore.RED + f"{error}" + Style.RESET_ALL)
                     
-                    time.sleep(2)
+                    time.sleep(10)
                     
                     
 
@@ -255,7 +251,7 @@ def main():
 
                 try:
                     
-                    order_id = exchange.create_market_sell_order(symbol, size2, params)    
+                    order_id = exchange.create_market_sell_order(symbol, size2, {"leverage": levrage})    
 
                     short = 1
 
@@ -269,7 +265,7 @@ def main():
                     
                     print(Fore.RED + f"{error}" + Style.RESET_ALL)
                     
-                    time.sleep(2)
+                    time.sleep(10)
 
         if ( buy == 2 ):
 
@@ -279,7 +275,7 @@ def main():
 
                 try:
                     
-                    order_id = exchange.create_market_buy_order(symbol, size2, params)
+                    order_id = exchange.create_market_buy_order(symbol, size2, {"leverage": levrage})
 
                     buy = 1
 
@@ -293,7 +289,7 @@ def main():
                     
                     print(Fore.RED + f"{error}" + Style.RESET_ALL)
                     
-                    time.sleep(2)
+                    time.sleep(10)
 
 thread_one = threading.Thread(target = get_data)
 thread_two = threading.Thread(target = main)
