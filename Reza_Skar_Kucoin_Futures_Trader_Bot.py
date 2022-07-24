@@ -421,11 +421,11 @@ def main():
             
             try:
             
-                print("Close Signal")
+                print("Close Long Signal")
                 
                 if (token != ""):
                     
-                    bot.send_message(chat_id=user_id, text="Close Signal")
+                    bot.send_message(chat_id=user_id, text="Close Long Signal")
                 
                 order_id = exchange.create_market_sell_order(symbol, size, params)
                 
@@ -451,11 +451,11 @@ def main():
             
             try:
             
-                print("Close Signal")
+                print("Close Short Signal")
                 
                 if (token != ""):
                     
-                    bot.send_message(chat_id=user_id, text="Close Signal")
+                    bot.send_message(chat_id=user_id, text="Close Short Signal")
                 
                 order_id = exchange.create_market_sell_order(symbol, size, params)
                 
