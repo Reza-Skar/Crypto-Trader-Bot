@@ -435,7 +435,7 @@ def main():
                 
                 buy = 0
                 
-                short = 1
+                short = 3
             
             except Exception as e:
                 
@@ -465,7 +465,7 @@ def main():
                 
                 buy = 0
                 
-                short = 1
+                short = 3
             
             except Exception as e:
                 
