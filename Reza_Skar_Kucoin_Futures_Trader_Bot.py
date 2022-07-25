@@ -196,7 +196,7 @@ except:
 
 try:
     
-    driver.find_element(By.XPATH,"""//*[@id="bottom-area"]/div[4]/div/div[1]/div[3]/div/div/div/div/div/button[3]""").click()
+    driver.find_element(By.XPATH,"""//*[@id="bottom-area"]/div[4]/div/div[1]/div[3]/div/div/div/div/button[3]""").click()
 
 except:
     
