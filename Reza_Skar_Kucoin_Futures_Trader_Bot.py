@@ -483,7 +483,7 @@ def main():
                 
                 first_trade = True
             
-            except Exception as e:
+            except Exception as error:
                 
                 print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)      
                 
@@ -515,7 +515,7 @@ def main():
                 
                 first_trade = True
             
-            except Exception as e:
+            except Exception as error:
                 
                 print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)      
                 
