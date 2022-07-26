@@ -238,7 +238,7 @@ def get_data():
 
             m2 = float(driver.find_element(By.XPATH,"/html/body/div[2]/div[1]/div/div[1]/div/table/tr[1]/td[2]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[8]/div").text)
 
-            price = float(driver.find_element(By.XPATH,"/html/body/div[2]/div[1]/div/div[1]/div/table/tr[1]/td[2]/div/div/div[2]/div[2]/div[3]/div[2]/div/div/div").text
+            price = float(driver.find_element(By.XPATH,"/html/body/div[2]/div[1]/div/div[1]/div/table/tr[1]/td[2]/div/div/div[2]/div[2]/div[3]/div[2]/div/div/div").text)
             
             if (m1 > price and m2 > price):
                 a = "Sell"
