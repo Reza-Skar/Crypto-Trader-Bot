@@ -258,7 +258,7 @@ def main():
     buy = 0
 
     short = 0
-    
+
     first_trade = True
 
     error_counter = 0
@@ -267,9 +267,7 @@ def main():
 
     print("Working")
 
-    if (token != ""):
-        
-        bot.send_message(chat_id=user_id, text="Bot Is Started On VPS")
+    bot.send_message(chat_id=user_id, text="Bot Is Started On VPS")
 
     while True:
 
@@ -298,7 +296,7 @@ def main():
                     bot.send_message(chat_id=user_id, text=f"Ordere {order_id} Ba Movafaghiat Sabt Gardid")
                 
                 error_counter = 0
-
+                
             except Exception as error:
 
                 print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)
@@ -306,9 +304,9 @@ def main():
                 print(Fore.RED + f"{error}" + Style.RESET_ALL)
                 
                 if (token != ""):
-                
+                    
                     bot.send_message(chat_id=user_id, text=f"{error}")
-                
+
                 error_counter += 1
                 
                 time.sleep(10)
@@ -316,10 +314,12 @@ def main():
                 if (error_counter == 10):
                     
                     print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
                     
                     driver.quit()
-                    
-                    break
+
+                    sys.exit()
 
         if ( short == 0 and first_trade == False and signal == "Exit Short" and a == "Sell"):
 
@@ -362,10 +362,12 @@ def main():
                 if (error_counter == 10):
                     
                     print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
                     
                     driver.quit()
-                    
-                    break
+
+                    sys.exit()
                 
         if ( short == 0 and first_trade == True and signal == "Exit Short" and a == "Sell"):
 
@@ -410,10 +412,12 @@ def main():
                 if (error_counter == 10):
                     
                     print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
                     
                     driver.quit()
-                    
-                    break                
+
+                    sys.exit()             
                     
         if ( buy == 0 and first_trade == False and signal == "Exit Long" and a == "Buy"):
 
@@ -438,10 +442,10 @@ def main():
                     bot.send_message(chat_id=user_id, text=f"Ordere {order_id} Ba Movafaghiat Sabt Gardid")
                 
                 error_counter = 0
-
+                
             except Exception as error:
 
-                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)        
+                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)
                 
                 print(Fore.RED + f"{error}" + Style.RESET_ALL)
                 
@@ -456,10 +460,12 @@ def main():
                 if (error_counter == 10):
                     
                     print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
                     
                     driver.quit()
-                    
-                    break
+
+                    sys.exit()
                     
         if (a == "Close" and buy == 1):
             
@@ -483,15 +489,31 @@ def main():
                 
                 first_trade = True
             
+                error_counter = 0
+                
             except Exception as error:
+
+                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)
                 
-                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)      
-                
-                print(e)
+                print(Fore.RED + f"{error}" + Style.RESET_ALL)
                 
                 if (token != ""):
                     
                     bot.send_message(chat_id=user_id, text=f"{error}")
+
+                error_counter += 1
+                
+                time.sleep(10)
+                
+                if (error_counter == 10):
+                    
+                    print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
+                    
+                    driver.quit()
+
+                    sys.exit()
                 
         if (a == "Close" and short == 1):
             
@@ -503,7 +525,7 @@ def main():
                     
                     bot.send_message(chat_id=user_id, text="Close Short Signal")
                 
-                order_id = exchange.create_market_sell_order(symbol, size, params)
+                order_id = exchange.create_market_buy_order(symbol, size, params)
                 
                 if (token != ""):
                     
@@ -514,16 +536,33 @@ def main():
                 short = 0
                 
                 first_trade = True
-            
+
+                error_counter = 0
+                
             except Exception as error:
+
+                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)
                 
-                print(Fore.RED + "** Error : Hengame Sabte Order Moshkeli Pish Amade **" + Style.RESET_ALL)      
-                
-                print(e)
+                print(Fore.RED + f"{error}" + Style.RESET_ALL)
                 
                 if (token != ""):
-                                
+                    
                     bot.send_message(chat_id=user_id, text=f"{error}")
+
+                error_counter += 1
+                
+                time.sleep(10)
+                
+                if (error_counter == 10):
+                    
+                    print("Bish Az Hade Mojaz Talash Gardid!")
+
+                    bot.send_message(chat_id=user_id, text="Bish Az Hade Mojaz Talash Gardid!")
+                    
+                    driver.quit()
+
+                    sys.exit()
+
 
 
 thread_one = threading.Thread(target = get_data)
