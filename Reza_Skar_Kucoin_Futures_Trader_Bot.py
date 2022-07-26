@@ -281,7 +281,7 @@ def main():
 
             try:
                 
-                order_id = exchange.create_market_buy_order(symbol, size, params)    
+                order_id = exchange.create_market_buy_order(symbol, size, params)['id']    
 
                 buy = 1
 
@@ -331,7 +331,7 @@ def main():
             
             try:
                 
-                order_id = exchange.create_market_sell_order(symbol, size2, params)    
+                order_id = exchange.create_market_sell_order(symbol, size2, params)['id']     
 
                 short = 1
 
@@ -379,7 +379,7 @@ def main():
             
             try:
                 
-                order_id = exchange.create_market_sell_order(symbol, size, params)    
+                order_id = exchange.create_market_sell_order(symbol, size, params)['id']     
 
                 short = 1
 
@@ -429,7 +429,7 @@ def main():
 
             try:
                 
-                order_id = exchange.create_market_buy_order(symbol, size2, params)
+                order_id = exchange.create_market_buy_order(symbol, size2, params)['id'] 
 
                 buy = 1
 
@@ -477,7 +477,7 @@ def main():
                     
                     bot.send_message(chat_id=user_id, text="Close Buy Signal")
                 
-                order_id = exchange.create_market_sell_order(symbol, size, params)
+                order_id = exchange.create_market_sell_order(symbol, size, params)['id'] 
                 
                 if (token != ""):
                     
@@ -525,7 +525,7 @@ def main():
                     
                     bot.send_message(chat_id=user_id, text="Close Short Signal")
                 
-                order_id = exchange.create_market_buy_order(symbol, size, params)
+                order_id = exchange.create_market_buy_order(symbol, size, params)['id'] 
                 
                 if (token != ""):
                     
