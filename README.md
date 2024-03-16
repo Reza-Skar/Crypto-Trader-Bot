@@ -23,8 +23,8 @@
 
 # Contact-Us
 برای ارتباط با بنده میتوانید از راه های ارتباطی زیر استفاده کنید :
-Telegram : @Reza_Skar
 
+Telegram : @Reza_Skar
 E-Mail : rsababkar@gmail.com
 
 تلگرام سریع تر پاسخ میدم.
